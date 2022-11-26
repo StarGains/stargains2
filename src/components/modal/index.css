@@ -1,0 +1,262 @@
+.page-container {
+  background-color: #002864;
+
+  color: white;
+}
+.page-body {
+  padding: 15px;
+}
+.wealth-heading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 81px;
+  margin-bottom: 2rem;
+}
+
+.first-div {
+  margin: 5rem;
+  margin-top: 0px;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.last-div {
+  margin: 5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 81px;
+}
+.p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: start;
+}
+.p3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+p {
+  padding: 1rem;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.b1 {
+  width: 180px;
+  height: 50px;
+  margin: 1rem;
+  color: white;
+  background: #4200ff;
+  border-radius: 15px;
+}
+.footer-div {
+  text-align: start;
+}
+.b2 {
+  width: 180px;
+  height: 50px;
+  color: white;
+  background: #4200ff;
+  border-radius: 15px;
+}
+.footer {
+  background: #595959;
+  mix-blend-mode: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.other-links {
+  text-align: start;
+}
+.terms {
+  margin-bottom: 2%;
+}
+.terms-div {
+  padding-left: 5%;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+
+  color: #ffffff;
+
+  text-align: start;
+}
+.first-image2 {
+  width: 300px;
+  height: 272.25px;
+  display: none;
+}
+.labelCheck {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+  position: absolute;
+  left: 110px;
+}
+.btn-able {
+  width: 100px;
+  height: 38px;
+  margin: 1rem;
+  color: white;
+  background: #4200ff;
+}
+.btn:disabled,
+.btn[disabled] {
+  position: absolute;
+  right: 580px;
+  width: 100px;
+  height: 35px;
+  margin: 1rem;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.info-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.info-image {
+  width: 50px;
+  height: 30px;
+}
+.tspawn {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.checkbox {
+  position: absolute;
+  left: 85px;
+  width: 20px;
+  height: 20px;
+  background: #d9d9d9;
+}
+.email-box {
+  background-color: red;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5em;
+}
+.todo-check {
+  margin-top: -1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5em;
+}
+
+.todo-email-input {
+  width: 30em;
+  margin-right: 1em;
+  height: 2.5em;
+  border-radius: 15px;
+  padding: 10px;
+}
+.todo-button {
+  height: 2.5em;
+}
+.error {
+  color: red;
+}
+
+@media only screen and (max-width: 650px) {
+  .first-image {
+    display: none;
+  }
+  .first-image2 {
+    display: block;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-div {
+    display: none;
+  }
+
+  .wealth-heading {
+    font-size: 54px;
+    margin-bottom: 0rem;
+  }
+  .first-div {
+    margin-bottom: 0rem;
+  }
+  .p1 {
+    font-size: 20px;
+  }
+  .last-div {
+    margin-top: 1rem;
+  }
+  .todo-email-input {
+    width: 23em;
+    margin-right: 1em;
+    height: 2.5em;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .p2 {
+    font-size: 15px;
+  }
+  .p3 {
+    font-size: 15px;
+  }
+  .email-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+  }
+  .todo-button {
+    margin-top: 2em;
+  }
+}
